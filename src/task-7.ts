@@ -6,5 +6,4 @@ function getMessage(): Promise<string> {
   });
 }
 
-console.log('=== Task 7 ===');
-getMessage().then(result => console.log(result));
+getMessage().then(result => console.log('=== Task 7 ===',result));
